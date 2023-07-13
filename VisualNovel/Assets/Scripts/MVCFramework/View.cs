@@ -17,7 +17,7 @@ namespace MVCPattern
         private void Awake()
         {
             //btn.onClick.AddListener(() => { Debug.Log("버튼 클릭"); }); //람다식으로 디버그
-            btn.onClick.AddListener(() => controller.UpdateData()); //람다식 버전
+            btn.onClick.AddListener(() => controller.UpdateData(0, 0)); //람다식 버전
         }
 
         private void OnEnable()

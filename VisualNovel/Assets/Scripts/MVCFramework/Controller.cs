@@ -33,10 +33,10 @@ namespace MVCPattern
         }
 
         //view를 통한 사용자 입력에 의한 모델의 정보 업데이트
-        public void UpdateData()
+        public void UpdateData(float firstValue, float secondValue)
         {
-            model.FirstData++;
-            model.SecondData++;
+            model.FirstData += firstValue;
+            model.SecondData += secondValue;
             NotifyObservers();
         }
     }
