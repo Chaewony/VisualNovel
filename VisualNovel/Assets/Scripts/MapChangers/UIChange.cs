@@ -24,9 +24,9 @@ namespace MapChange
         public void UpdateUI(IModel model) //v가 할 일, m의 상태 변경을 c를 통해 확인 후 화면에 update
         {
             MapModel mapModel = (MapModel)model;
-            Debug.Log(mapModel);
             mapModel.NextMapUI.gameObject.SetActive(true);
             this.gameObject.SetActive(false);
+            Debug.Log(this.gameObject);
         }
     }
 }

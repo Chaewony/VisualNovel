@@ -33,7 +33,6 @@ namespace MapChange
         {
             //버튼 클릭됐을 때의 처리
             button.onClick.AddListener(() => controller.UpdateData(nextMapUI, nextMapObject));
-            Debug.Log("디버깅");
         }
 
         //정보를 전달받으면 Display에 Update 함

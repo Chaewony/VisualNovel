@@ -33,9 +33,7 @@ namespace MapChange
         //view를 통한 사용자 입력에 의한 모델의 정보 업데이트
         public void UpdateData(GameObject nextMapUI, GameObject nextMapObject)
         {
-            Debug.Log("디버깅");
             mapModel.NextMapUI = nextMapUI;
-            Debug.Log(nextMapUI);
             mapModel.NextMapObject = nextMapObject;
             NotifyObservers();
         }

@@ -549,9 +549,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 256c6d65ad7940d43909dced291a3854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 0}
-  nextMapUI: {fileID: 0}
-  nextMapObject: {fileID: 0}
+  button: {fileID: 222406974}
+  nextMapUI: {fileID: 712813416}
+  nextMapObject: {fileID: 1189418057}
   controller: {fileID: 1176533511}
 --- !u!1 &233075758
 GameObject:
@@ -688,9 +688,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 256c6d65ad7940d43909dced291a3854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 0}
-  nextMapUI: {fileID: 0}
-  nextMapObject: {fileID: 0}
+  button: {fileID: 233075760}
+  nextMapUI: {fileID: 1861883969}
+  nextMapObject: {fileID: 1185189413}
   controller: {fileID: 1176533511}
 --- !u!1 &242522630
 GameObject:
@@ -1761,9 +1761,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 256c6d65ad7940d43909dced291a3854, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  button: {fileID: 0}
-  nextMapUI: {fileID: 0}
-  nextMapObject: {fileID: 0}
+  button: {fileID: 1299744743}
+  nextMapUI: {fileID: 1247605800}
+  nextMapObject: {fileID: 415007474}
   controller: {fileID: 1176533511}
 --- !u!1 &1760654409
 GameObject:
