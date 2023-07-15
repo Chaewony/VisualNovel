@@ -26,7 +26,6 @@ namespace MapChange
             MapModel mapModel = (MapModel)model;
             mapModel.NextMapUI.gameObject.SetActive(true);
             this.gameObject.SetActive(false);
-            Debug.Log(this.gameObject);
         }
     }
 }

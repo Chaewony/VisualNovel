@@ -24,7 +24,16 @@ namespace MapChange
         //옵저버들에게 정보 전달(발신)
         public void NotifyObservers()
         {
+            // foreach문 도는 중에 옵저버리스트 변경 일어나서
+            // (updateUI함수 실행하면서 object가 inactive되면서 옵저버 리스트에서 해제되기 때문)
+            // 기존의 옵저버 리스트를 값만복사 후 foreach문을 실행함
+            List<IView> currentObserverList = new List<IView>();
             foreach (IView observer in observersList)
+            {
+                currentObserverList.Add(observer);
+            }
+            
+            foreach (IView observer in currentObserverList) 
             {
                 observer.UpdateUI(mapModel);
             }
