@@ -17,18 +17,14 @@ public class MapSO : ScriptableObject
     [Tooltip("맵 잠금 여부")]
     [SerializeField] private bool isLocked;
 
-    [Tooltip("맵 오브젝트 현재 활성화 여부")]
-    [SerializeField] private bool isOn;
-
-    [Tooltip("자식(빌딩) id의 리스트")]
-    [SerializeField] private List<int> childrenIdList;
+    [Tooltip("디폴트 시작 맵")]
+    [SerializeField] private bool isDefault;
 
     public int Id { get => id; }
     public string MapName { get => mapName; }
     public string MapNameKr { get => mapNameKr; }
     public bool IsLocked { get => isLocked; }
-    public bool IsOn { get => isOn; }
-    public List<int> ChildrenIdList { get => childrenIdList; }
+    public bool IsDefault { get => isDefault; }
 
     /*public MapSO(int id, string map, bool isLocked)
     {

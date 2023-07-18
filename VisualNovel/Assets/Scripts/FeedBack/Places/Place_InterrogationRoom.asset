@@ -16,3 +16,4 @@ MonoBehaviour:
   placeName: Place_InterrogationRoom
   placeNameKr: "\uCDE8\uC870\uC2E4"
   isLocked: 0
+  parentId: 3

@@ -16,3 +16,4 @@ MonoBehaviour:
   placeName: Place_Counter
   placeNameKr: "\uD3B8\uC758\uC810 \uCE74\uC6B4\uD130"
   isLocked: 0
+  parentId: 1

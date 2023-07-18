@@ -16,3 +16,4 @@ MonoBehaviour:
   placeName: Place_StoreFront
   placeNameKr: "\uD3B8\uC758\uC810 \uC785\uAD6C"
   isLocked: 0
+  parentId: 1

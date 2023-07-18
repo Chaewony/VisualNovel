@@ -4,11 +4,11 @@ using UnityEngine.Events;
 public enum Trigger
 {
     moveLeft,
-    moveRight
+    moveRight,
 }
 
 [CreateAssetMenu(menuName = "Events/Move Event Channel")]
-public class MoveEventChannelSO : ScriptableObject
+public class MoveMapEventChannelSO : ScriptableObject
 {
     public event UnityAction <Trigger>OnEventRaised;
     [ContextMenu("마우스 클릭")]

@@ -16,4 +16,4 @@ MonoBehaviour:
   buildingName: Building_Store
   buildingNameKr: "\uD3B8\uC758\uC810"
   isLocked: 0
-  childrenIdList: 010000000200000003000000
+  parentId: 1

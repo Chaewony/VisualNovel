@@ -17,12 +17,12 @@ public class BuildingSO : ScriptableObject
     [Tooltip("빌딩 잠금 여부")]
     [SerializeField] private bool isLocked;
 
-    [Tooltip("자식(플레이스) id의 리스트")]
-    [SerializeField] private List<int> childrenIdList;
+    [Tooltip("부모(맵) id")]
+    [SerializeField] private int parentId;
 
     public int Id { get => id; }
     public string BuildingName { get => buildingName; }
     public string BuildingNameKr { get => buildingNameKr; }
     public bool IsLocked { get => isLocked; }
-    public List<int> ChildrenIdList { get => childrenIdList; }
+    public int ParentId { get => parentId; }
 }

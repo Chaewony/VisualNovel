@@ -14,5 +14,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   id: 0
   placeName: Place_WriteReportRoom
-  placeNameKr: 
+  placeNameKr: "\uAC1C\uC778 \uC0AC\uBB34\uC2E4"
   isLocked: 0
+  parentId: 0

@@ -16,4 +16,4 @@ MonoBehaviour:
   buildingName: Building_MainPoliceOffice
   buildingNameKr: "\uACBD\uCC30\uC11C (\uBCF8\uAD00)"
   isLocked: 0
-  childrenIdList: 04000000
+  parentId: 2

@@ -1,0 +1,1196 @@
+Using pre-set license
+Built from '2022.3/release' branch; Version is '2022.3.0f1 (fb119bb0b476) revision 16454043'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'ko' Physical Memory: 7901 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/서채원/Documents/GitHub/VisualNovel/VisualNovel
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+58551
+Successfully changed project path to: C:/Users/서채원/Documents/GitHub/VisualNovel/VisualNovel
+C:/Users/서채원/Documents/GitHub/VisualNovel/VisualNovel
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [5420] Host "[IP] 192.168.43.3 [Port] 0 [Flags] 2 [Guid] 3023761005 [EditorId] 3023761005 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OS0U8JC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [5420] Host "[IP] 192.168.43.3 [Port] 0 [Flags] 2 [Guid] 3023761005 [EditorId] 3023761005 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-OS0U8JC) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 508.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.0f1 (fb119bb0b476)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/서채원/Documents/GitHub/VisualNovel/VisualNovel/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Plus Graphics (ID=0x8a52)
+    Vendor:   Intel
+    VRAM:     3950 MB
+    Driver:   30.0.100.9836
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.035196 seconds.
+- Loaded All Assemblies, in  1.000 seconds
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.060 seconds
+Domain Reload Profiling: 2051ms
+	BeginReloadAssembly (276ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (87ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (218ms)
+	LoadAllAssembliesAndSetupDomain (388ms)
+		LoadAssemblies (270ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (364ms)
+			TypeCache.Refresh (362ms)
+				TypeCache.ScanAssembly (333ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1062ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (839ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (37ms)
+			SetLoadedEditorAssemblies (28ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (7ms)
+			ProcessInitializeOnLoadAttributes (551ms)
+			ProcessInitializeOnLoadMethodAttributes (216ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  3.991 seconds
+Refreshing native plugins compatible for Editor in 26.42 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.575 seconds
+Domain Reload Profiling: 6548ms
+	BeginReloadAssembly (870ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (53ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (95ms)
+	RebuildCommonClasses (160ms)
+	RebuildNativeTypeToScriptingClass (54ms)
+	initialDomainReloadingComplete (208ms)
+	LoadAllAssembliesAndSetupDomain (2680ms)
+		LoadAssemblies (1825ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1306ms)
+			TypeCache.Refresh (1210ms)
+				TypeCache.ScanAssembly (1162ms)
+			ScanForSourceGeneratedMonoScriptInfo (75ms)
+			ResolveRequiredComponents (22ms)
+	FinalizeReload (2576ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1769ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (23ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (421ms)
+			ProcessInitializeOnLoadAttributes (1138ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (32ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (77ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.26 seconds
+Refreshing native plugins compatible for Editor in 26.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4001 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (60.5 KB). Loaded Objects now: 4466.
+Memory consumption went from 142.3 MB to 142.3 MB.
+Total: 9.483900 ms (FindLiveObjects: 0.516900 ms CreateObjectMapping: 0.576800 ms MarkObjects: 8.095700 ms  DeleteObjects: 0.292300 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 230457.182757 seconds.
+  path: Assets/Scripts/FeedBack/SO/MapSO.cs
+  artifactKey: Guid(8599db0cae30d7c42a1edbc38aa3db11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FeedBack/SO/MapSO.cs using Guid(8599db0cae30d7c42a1edbc38aa3db11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '532ada9b6b908d23fd0cecadc6782ca7') in 0.006617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.463 seconds
+Refreshing native plugins compatible for Editor in 25.77 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.703 seconds
+Domain Reload Profiling: 5159ms
+	BeginReloadAssembly (279ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (65ms)
+	RebuildCommonClasses (56ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (61ms)
+	LoadAllAssembliesAndSetupDomain (1043ms)
+		LoadAssemblies (618ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (539ms)
+			TypeCache.Refresh (498ms)
+				TypeCache.ScanAssembly (464ms)
+			ScanForSourceGeneratedMonoScriptInfo (12ms)
+			ResolveRequiredComponents (29ms)
+	FinalizeReload (3704ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1396ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (24ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (342ms)
+			ProcessInitializeOnLoadAttributes (892ms)
+			ProcessInitializeOnLoadMethodAttributes (93ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (64ms)
+Refreshing native plugins compatible for Editor in 28.82 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.8 KB). Loaded Objects now: 4471.
+Memory consumption went from 136.3 MB to 136.2 MB.
+Total: 7.085600 ms (FindLiveObjects: 0.504600 ms CreateObjectMapping: 0.486300 ms MarkObjects: 5.995300 ms  DeleteObjects: 0.097500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 43.551203 seconds.
+  path: Assets/Scripts/FeedBack/Maps/Map_ZahirCity_Inside.asset
+  artifactKey: Guid(7c366011621b90741b2bdaa50c81adc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/FeedBack/Maps/Map_ZahirCity_Inside.asset using Guid(7c366011621b90741b2bdaa50c81adc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b4bad6c701c84e7f2dbfcdafc4a2a3') in 0.016842 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.781 seconds
+Refreshing native plugins compatible for Editor in 18.24 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.465 seconds
+Domain Reload Profiling: 5241ms
+	BeginReloadAssembly (484ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (27ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (101ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (12ms)
+	initialDomainReloadingComplete (67ms)
+	LoadAllAssembliesAndSetupDomain (1144ms)
+		LoadAssemblies (849ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (568ms)
+			TypeCache.Refresh (538ms)
+				TypeCache.ScanAssembly (519ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (3467ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1201ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (17ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (273ms)
+			ProcessInitializeOnLoadAttributes (786ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (75ms)
+Script is not up to date after domain reload: guid(c2ecfc9a50a04564386a7f89cb057609) path("Assets/Scripts/FeedBack/Managers/MapManager.cs") state(2)
+Refreshing native plugins compatible for Editor in 19.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3975 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.9 KB). Loaded Objects now: 4475.
+Memory consumption went from 136.3 MB to 136.2 MB.
+Total: 5.210300 ms (FindLiveObjects: 0.357800 ms CreateObjectMapping: 0.169700 ms MarkObjects: 4.604200 ms  DeleteObjects: 0.076800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.199 seconds
+Refreshing native plugins compatible for Editor in 11.25 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.528 seconds
+Domain Reload Profiling: 2720ms
+	BeginReloadAssembly (298ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (75ms)
+	RebuildCommonClasses (50ms)
+	RebuildNativeTypeToScriptingClass (15ms)
+	initialDomainReloadingComplete (51ms)
+	LoadAllAssembliesAndSetupDomain (778ms)
+		LoadAssemblies (531ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (387ms)
+			TypeCache.Refresh (368ms)
+				TypeCache.ScanAssembly (349ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1529ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (528ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (156ms)
+			ProcessInitializeOnLoadAttributes (302ms)
+			ProcessInitializeOnLoadMethodAttributes (40ms)
+			AfterProcessingInitializeOnLoad (13ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 14.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.9 KB). Loaded Objects now: 4480.
+Memory consumption went from 136.5 MB to 136.5 MB.
+Total: 5.143100 ms (FindLiveObjects: 0.406900 ms CreateObjectMapping: 0.187900 ms MarkObjects: 4.467900 ms  DeleteObjects: 0.078300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.322 seconds
+Refreshing native plugins compatible for Editor in 8.71 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.417 seconds
+Domain Reload Profiling: 2732ms
+	BeginReloadAssembly (258ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (59ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (65ms)
+	LoadAllAssembliesAndSetupDomain (913ms)
+		LoadAssemblies (727ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (312ms)
+			TypeCache.Refresh (303ms)
+				TypeCache.ScanAssembly (288ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1418ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (516ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (8ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (142ms)
+			ProcessInitializeOnLoadAttributes (305ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (10ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (29ms)
+Refreshing native plugins compatible for Editor in 8.22 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (35.0 KB). Loaded Objects now: 4484.
+Memory consumption went from 136.5 MB to 136.5 MB.
+Total: 3.677900 ms (FindLiveObjects: 0.292200 ms CreateObjectMapping: 0.157800 ms MarkObjects: 3.125900 ms  DeleteObjects: 0.100800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.911 seconds
+Refreshing native plugins compatible for Editor in 18.40 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.799 seconds
+Domain Reload Profiling: 4700ms
+	BeginReloadAssembly (437ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (52ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (109ms)
+	RebuildCommonClasses (76ms)
+	RebuildNativeTypeToScriptingClass (17ms)
+	initialDomainReloadingComplete (63ms)
+	LoadAllAssembliesAndSetupDomain (1307ms)
+		LoadAssemblies (789ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (697ms)
+			TypeCache.Refresh (675ms)
+				TypeCache.ScanAssembly (645ms)
+			ScanForSourceGeneratedMonoScriptInfo (7ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2799ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1004ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (299ms)
+			ProcessInitializeOnLoadAttributes (564ms)
+			ProcessInitializeOnLoadMethodAttributes (77ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (47ms)
+Refreshing native plugins compatible for Editor in 11.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (35.0 KB). Loaded Objects now: 4488.
+Memory consumption went from 136.5 MB to 136.5 MB.
+Total: 4.581900 ms (FindLiveObjects: 0.431100 ms CreateObjectMapping: 0.235000 ms MarkObjects: 3.803600 ms  DeleteObjects: 0.110700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.853 seconds
+Refreshing native plugins compatible for Editor in 20.45 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.287 seconds
+Domain Reload Profiling: 5137ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (57ms)
+	RebuildCommonClasses (68ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (60ms)
+	LoadAllAssembliesAndSetupDomain (1422ms)
+		LoadAssemblies (858ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (687ms)
+			TypeCache.Refresh (672ms)
+				TypeCache.ScanAssembly (639ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (14ms)
+	FinalizeReload (3290ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1210ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (22ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (295ms)
+			ProcessInitializeOnLoadAttributes (774ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (26ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (54ms)
+Refreshing native plugins compatible for Editor in 24.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.9 KB). Loaded Objects now: 4492.
+Memory consumption went from 136.6 MB to 136.5 MB.
+Total: 7.365700 ms (FindLiveObjects: 1.264500 ms CreateObjectMapping: 0.445100 ms MarkObjects: 5.381400 ms  DeleteObjects: 0.265300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.159 seconds
+Refreshing native plugins compatible for Editor in 19.67 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.050 seconds
+Domain Reload Profiling: 5198ms
+	BeginReloadAssembly (517ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (30ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (115ms)
+	RebuildCommonClasses (138ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (1352ms)
+		LoadAssemblies (968ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (671ms)
+			TypeCache.Refresh (661ms)
+				TypeCache.ScanAssembly (637ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3051ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1097ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (18ms)
+			SetLoadedEditorAssemblies (13ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (351ms)
+			ProcessInitializeOnLoadAttributes (602ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (74ms)
+Script is not up to date after domain reload: guid(aca89663210d02c4ba88bffcf14c44f7) path("Assets/Scripts/FeedBack/Managers/PlaceManager.cs") state(2)
+Refreshing native plugins compatible for Editor in 26.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3976 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.8 KB). Loaded Objects now: 4495.
+Memory consumption went from 136.5 MB to 136.5 MB.
+Total: 13.843200 ms (FindLiveObjects: 0.496100 ms CreateObjectMapping: 0.443500 ms MarkObjects: 12.791900 ms  DeleteObjects: 0.110000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.046 seconds
+Refreshing native plugins compatible for Editor in 18.24 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.603 seconds
+Domain Reload Profiling: 4634ms
+	BeginReloadAssembly (464ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (45ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (104ms)
+	RebuildCommonClasses (80ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (97ms)
+	LoadAllAssembliesAndSetupDomain (1363ms)
+		LoadAssemblies (899ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (672ms)
+			TypeCache.Refresh (650ms)
+				TypeCache.ScanAssembly (626ms)
+			ScanForSourceGeneratedMonoScriptInfo (10ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (2604ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1007ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (31ms)
+			SetLoadedEditorAssemblies (24ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (404ms)
+			ProcessInitializeOnLoadAttributes (488ms)
+			ProcessInitializeOnLoadMethodAttributes (39ms)
+			AfterProcessingInitializeOnLoad (21ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (48ms)
+Refreshing native plugins compatible for Editor in 13.50 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.8 KB). Loaded Objects now: 4500.
+Memory consumption went from 136.6 MB to 136.5 MB.
+Total: 4.276300 ms (FindLiveObjects: 0.603900 ms CreateObjectMapping: 0.471100 ms MarkObjects: 3.134600 ms  DeleteObjects: 0.065200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.460 seconds
+Refreshing native plugins compatible for Editor in 10.28 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.011 seconds
+Domain Reload Profiling: 3457ms
+	BeginReloadAssembly (275ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (67ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (1019ms)
+		LoadAssemblies (665ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (480ms)
+			TypeCache.Refresh (469ms)
+				TypeCache.ScanAssembly (450ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (2012ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (717ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (6ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (173ms)
+			ProcessInitializeOnLoadAttributes (440ms)
+			ProcessInitializeOnLoadMethodAttributes (67ms)
+			AfterProcessingInitializeOnLoad (18ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (56ms)
+Refreshing native plugins compatible for Editor in 11.41 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.9 KB). Loaded Objects now: 4504.
+Memory consumption went from 136.6 MB to 136.5 MB.
+Total: 4.507100 ms (FindLiveObjects: 0.343200 ms CreateObjectMapping: 0.263800 ms MarkObjects: 3.824400 ms  DeleteObjects: 0.074300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.412 seconds
+Refreshing native plugins compatible for Editor in 9.73 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.072 seconds
+Domain Reload Profiling: 4477ms
+	BeginReloadAssembly (273ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (19ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (59ms)
+	RebuildCommonClasses (74ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (968ms)
+		LoadAssemblies (653ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (454ms)
+			TypeCache.Refresh (445ms)
+				TypeCache.ScanAssembly (429ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (3073ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1070ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (279ms)
+			ProcessInitializeOnLoadAttributes (662ms)
+			ProcessInitializeOnLoadMethodAttributes (76ms)
+			AfterProcessingInitializeOnLoad (22ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (54ms)
+Refreshing native plugins compatible for Editor in 11.46 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.8 KB). Loaded Objects now: 4508.
+Memory consumption went from 136.6 MB to 136.5 MB.
+Total: 6.585700 ms (FindLiveObjects: 0.558200 ms CreateObjectMapping: 0.457000 ms MarkObjects: 5.404800 ms  DeleteObjects: 0.163500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.328 seconds
+Refreshing native plugins compatible for Editor in 9.66 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.466 seconds
+Domain Reload Profiling: 3788ms
+	BeginReloadAssembly (277ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (28ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (64ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (59ms)
+	LoadAllAssembliesAndSetupDomain (900ms)
+		LoadAssemblies (591ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (429ms)
+			TypeCache.Refresh (413ms)
+				TypeCache.ScanAssembly (395ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2467ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1070ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (19ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (270ms)
+			ProcessInitializeOnLoadAttributes (660ms)
+			ProcessInitializeOnLoadMethodAttributes (83ms)
+			AfterProcessingInitializeOnLoad (30ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (61ms)
+Refreshing native plugins compatible for Editor in 30.28 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.8 KB). Loaded Objects now: 4512.
+Memory consumption went from 136.6 MB to 136.5 MB.
+Total: 6.744400 ms (FindLiveObjects: 1.729300 ms CreateObjectMapping: 0.721600 ms MarkObjects: 4.192400 ms  DeleteObjects: 0.099900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.276 seconds
+Refreshing native plugins compatible for Editor in 11.68 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.623 seconds
+Domain Reload Profiling: 2894ms
+	BeginReloadAssembly (267ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (74ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (882ms)
+		LoadAssemblies (536ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (456ms)
+			TypeCache.Refresh (449ms)
+				TypeCache.ScanAssembly (431ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (7ms)
+	FinalizeReload (1624ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (570ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (10ms)
+			SetLoadedEditorAssemblies (7ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (171ms)
+			ProcessInitializeOnLoadAttributes (323ms)
+			ProcessInitializeOnLoadMethodAttributes (43ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (35ms)
+Refreshing native plugins compatible for Editor in 8.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (35.0 KB). Loaded Objects now: 4516.
+Memory consumption went from 136.6 MB to 136.5 MB.
+Total: 5.160100 ms (FindLiveObjects: 0.374600 ms CreateObjectMapping: 0.165000 ms MarkObjects: 4.547900 ms  DeleteObjects: 0.071400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.220 seconds
+Refreshing native plugins compatible for Editor in 9.54 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.000 seconds
+Domain Reload Profiling: 3214ms
+	BeginReloadAssembly (241ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (20ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (52ms)
+	RebuildNativeTypeToScriptingClass (19ms)
+	initialDomainReloadingComplete (58ms)
+	LoadAllAssembliesAndSetupDomain (843ms)
+		LoadAssemblies (576ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (377ms)
+			TypeCache.Refresh (367ms)
+				TypeCache.ScanAssembly (348ms)
+			ScanForSourceGeneratedMonoScriptInfo (4ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (2001ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (657ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (11ms)
+			SetLoadedEditorAssemblies (9ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (197ms)
+			ProcessInitializeOnLoadAttributes (385ms)
+			ProcessInitializeOnLoadMethodAttributes (41ms)
+			AfterProcessingInitializeOnLoad (15ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (26ms)
+Refreshing native plugins compatible for Editor in 9.95 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.8 KB). Loaded Objects now: 4520.
+Memory consumption went from 136.6 MB to 136.5 MB.
+Total: 4.268400 ms (FindLiveObjects: 0.393500 ms CreateObjectMapping: 0.178100 ms MarkObjects: 3.621800 ms  DeleteObjects: 0.073400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  1.255 seconds
+Refreshing native plugins compatible for Editor in 10.10 ms, found 4 plugins.
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.264 seconds
+Domain Reload Profiling: 3515ms
+	BeginReloadAssembly (274ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (24ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (70ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (53ms)
+	LoadAllAssembliesAndSetupDomain (836ms)
+		LoadAssemblies (559ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (395ms)
+			TypeCache.Refresh (380ms)
+				TypeCache.ScanAssembly (360ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (2268ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (988ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (10ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (245ms)
+			ProcessInitializeOnLoadAttributes (604ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+			AfterProcessingInitializeOnLoad (28ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (67ms)
+Refreshing native plugins compatible for Editor in 22.61 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3977 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 35 unused Assets / (34.9 KB). Loaded Objects now: 4524.
+Memory consumption went from 136.6 MB to 136.6 MB.
+Total: 6.349600 ms (FindLiveObjects: 0.975600 ms CreateObjectMapping: 0.465300 ms MarkObjects: 4.680100 ms  DeleteObjects: 0.225500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/ChangeMapHandler.cs: 8b67c9ab1f891450cf72e5b8c5d91c0e -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/EnterExitCollider.cs: e3c7d67755fdd62f04ef11e3d79928c4 -> 7621f0a3269b2f36c2fc38734444b188
+  custom:scripting/monoscript/fileName/BuildingEnterExitCollider.cs: b48142b3173f0d6d6d137e231d20c16b -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/ChangeMapManager.cs: 32cef0b8790cde87ef8e6ad4c125de97 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/NewBehaviourScript.cs: b21687ddb03d73bd9f0c1daecb9714de -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MapManager.cs: deaaa7a82652652a72e06b65d4a4f8b6 -> 2d417b3219ec15557e34471cdea52dc8
+  custom:scripting/monoscript/fileName/MoveCollider.cs: 978b6b4f9fa0432abccb834b6b609f43 -> 9ad2d19be09c10845c9e0837711cd86a
+  custom:scripting/monoscript/fileName/PlaceManager.cs: d5f84d3656c82dfe59c230c684554131 -> 5210a6114195bd0697f2a96f4ce66cca
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/BuildingEnterCollider.cs: 0fe44d1ece1dddee24883eac08bdb551 -> 
+  custom:scripting/monoscript/fileName/BuildingExitCollider.cs: 13f31f9ece615f5ed8fe9b07ba17435e -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/BuildingManager.cs: e6ddd94fd7998fa0e9b6b3805f8c39ee -> db61c484a21c610b88992bba6c536ada
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 

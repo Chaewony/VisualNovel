@@ -16,8 +16,12 @@ public class PlaceSO : ScriptableObject
     [Tooltip("플레이스 잠금 여부")]
     [SerializeField] private bool isLocked;
 
+    [Tooltip("부모(빌딩) id")]
+    [SerializeField] private int parentId;
+
     public int Id { get => id; }
     public string PlaceName { get => placeName; }
     public string PlaceNameKr { get => placeNameKr; }
     public bool IsLocked { get => isLocked; }
+    public int ParentId { get => parentId; }
 }

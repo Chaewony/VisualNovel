@@ -9,11 +9,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f44f7226a880e9f4aad863768512cc65, type: 3}
-  m_Name: Place_PoliceOfficeFront
+  m_Script: {fileID: 11500000, guid: 8af7a08ba846be54496eac184cf5b16a, type: 3}
+  m_Name: PlaceOnOffEvent
   m_EditorClassIdentifier: 
-  id: 4
-  placeName: Place_PoliceOfficeFront
-  placeNameKr: "\uACBD\uCC30\uC11C"
-  isLocked: 0
-  parentId: 2
